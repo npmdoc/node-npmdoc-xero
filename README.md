@@ -1,6 +1,6 @@
 # npmdoc-xero
 
-#### api documentation for  xero (v0.0.8)  [![npm package](https://img.shields.io/npm/v/npmdoc-xero.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-xero) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-xero.svg)](https://travis-ci.org/npmdoc/node-npmdoc-xero)
+#### api documentation for  [xero (v0.0.8)](https://github.com/thallium205/xero)  [![npm package](https://img.shields.io/npm/v/npmdoc-xero.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-xero) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-xero.svg)](https://travis-ci.org/npmdoc/node-npmdoc-xero)
 
 #### Xero.com Node Library
 
@@ -21,33 +21,50 @@
 ```json
 
 {
-    "name": "xero",
-    "version": "0.0.8",
+    "author": {
+        "name": "thallium205"
+    },
+    "bugs": {
+        "url": "https://github.com/thallium205/xero/issues"
+    },
     "dependencies": {
-        "oauth": "0.9.12",
         "easyxml": "1.0.0",
-        "xml2js": "0.4.4",
-        "inflect": "0.3.0"
+        "inflect": "0.3.0",
+        "oauth": "0.9.12",
+        "xml2js": "0.4.4"
     },
     "description": "Xero.com Node Library",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:thallium205/xero.git"
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "8b48c67384ae6f1b798252d1716114c0fdb06e3b",
+        "tarball": "https://registry.npmjs.org/xero/-/xero-0.0.8.tgz"
     },
+    "gitHead": "3ceec8036cd7bafb6949a709220aa6f4f367f710",
+    "homepage": "https://github.com/thallium205/xero",
     "keywords": [
         "xero",
         "node",
         "nodejs"
     ],
-    "author": "thallium205 <https://github.com/thallium205>",
     "license": "MIT",
-    "readmeFilename": "README.md",
-    "devDependencies": {},
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "thallium205"
+        }
+    ],
+    "name": "xero",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/thallium205/xero.git"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "gitHead": "3ceec8036cd7bafb6949a709220aa6f4f367f710"
+    "version": "0.0.8",
+    "bin": {}
 }
 ```
 
